@@ -1,6 +1,10 @@
-This is a remake of [file-mesh](https://github.com/artur99/file-mesh) but with TS instead of JS. The original project was a university project and was written in JS. I decided to rewrite it in TS because while building the initial version I actually realised for the first time how useful TS is in life. :> Now I can't live without it. ✨😌
+This is a remake of [file-mesh](https://github.com/artur99/file-mesh) but with TS instead of JS.
 
-BTW, this is bun compatible, and it works great great great. ⚡️
+The original project was a university project and was written in JS. I decided to rewrite it in TS because while building the initial version I actually realised for the first time how useful TS is in life. :> Now I can't live without it. ✨ 😌
+
+BTW, this is [bun](https://bun.sh/) compatible, and it works great great great. ⚡️
+
+PS: take the code with a grain of salt, it was written in Jan 2022 and only quickly rewritten in TS, not much effort was put into the refactorisation process other than making it typesafe and fixing some identified bugs. 🤷‍♂️
 
 # Distributed File Storage
 University project implementing a basic prototype for a distributed file storage with multiple replica storage, with redistribution on failovers. Any node node can die and the system will still work. Master node stores no data persistently and generates the file mesh from the nodes' data.
